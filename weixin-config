@@ -1,0 +1,11 @@
+server.port=8200
+spring.application.name=micro-weixin
+#eureka weixin client端
+eureka.client.service-url.defaultZone=http://127.0.0.1:8100/eureka/
+#swaggger基本配置
+swagger.base-package=com.micro.weixin.service.impl
+swagger.title=SrpingCloud--微信服务接口文档
+swagger.description=微服务之微信服务
+swagger.version=1.0
+swagger.contact.name=林瑞凯
+swagger.contact.email=949296157@qq.com
